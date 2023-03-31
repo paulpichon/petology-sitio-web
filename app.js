@@ -14,23 +14,23 @@ app.get('/', (req, res) => {
     res.render('index');
 });
 //buy
-app.get('/', (req, res) => {
+app.get('/buy', (req, res) => {
     res.render('buy');
 });
 //clinic
-app.get('/', (req, res) => {
+app.get('/clinic', (req, res) => {
     res.render('clinic');
 });
 //contact
-app.get('/', (req, res) => {
+app.get('/contact', (req, res) => {
     res.render('contact');
 });
 //pet
-app.get('/', (req, res) => {
+app.get('/pet', (req, res) => {
     res.render('pet');
 });
 //service
-app.get('/', (req, res) => {
+app.get('/service', (req, res) => {
     res.render('service');
 });
 //404
